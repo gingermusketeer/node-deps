@@ -1,0 +1,27 @@
+{
+  "name": "node-deps",
+  "main": "./lib/node-deps",
+  "version": "0.1.0",
+  "description": "Navigate your node dependencies",
+  "activationEvents": [
+    "node-deps:goto"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom/node-deps"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "detective": "^3.1.0",
+    "resolve": "^0.6.2",
+    "coffee-script": "^1.7.1"
+  },
+  "author": "Max Brosnahan",
+  "bugs": {
+    "url": "https://github.com/gingermusketeer/node-deps/issues"
+  },
+  "homepage": "https://github.com/gingermusketeer/node-deps",
+  "license": "MIT"
+}
